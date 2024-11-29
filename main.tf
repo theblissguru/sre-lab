@@ -1,5 +1,5 @@
 provider "aws" {
-  region = "us-east-2"
+  region = "ap-south-2"
 }
 
 resource "aws_instance" "example" {
@@ -8,7 +8,7 @@ resource "aws_instance" "example" {
   key_name      = "automation"
 
   tags = {
-    Name = "HarishRoy"
+    Name = "HarishRoyHyderabad"
   }
 
   user_data = file("user_data.sh")
