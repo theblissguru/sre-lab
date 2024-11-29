@@ -8,7 +8,7 @@ resource "aws_instance" "example" {
   key_name      = "automation"
 
   tags = {
-    Name = "TerraformExample"
+    Name = "HarishRoy"
   }
 
   user_data = file("user_data.sh")
