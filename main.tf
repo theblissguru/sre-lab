@@ -12,9 +12,9 @@ resource "aws_instance" "example" {
   }
 
   user_data = file("user_data.sh")
-
+}
 
 output "instance_ip" {
   value = aws_instance.example.public_ip
 }
-}
+
